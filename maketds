@@ -1,0 +1,2 @@
+find . \( -name  '*.aux' -o -name '*.lot' -o -name '*.lof' -o -name '*.log' -o -name '*.bbl' -o -name '*.blg' -o -name '*.gz' -o -name '*.toc' -o -name '*.dvi' \) -delete
+ctanify  -p screenplay-pkg screenplay-pkg.sty screenplay-pkg.pdf README   screenplay-pkg.tex=doc/latex/screenplay-pkg screenplay-pkg-example.*=doc/latex/screenplay-pkg
